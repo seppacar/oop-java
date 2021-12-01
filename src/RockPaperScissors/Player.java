@@ -22,6 +22,7 @@ public class Player {
     public void selectGesture() {
         Scanner input = new Scanner(System.in);
         char gesture;
+        System.out.println(this.player+"'s turn,");
         do {
             //Get user input until user enters R, P or S
             System.out.println("Select a gesture 'R' for Rocks, 'P' for papers and 'S' for Scissors");
